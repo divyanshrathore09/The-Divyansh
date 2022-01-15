@@ -4,6 +4,7 @@ if ( ! function_exists( 'the_divyansh_theme_setup' ) ) :
     // Function to add different functionality in theme
     function the_divyansh_theme_setup() {
         add_theme_support( 'title-tag' );
+        add_theme_support( 'custom-logo' );
     }    
 endif; // the_divyansh_theme_setup
 add_action( 'after_setup_theme', 'the_divyansh_theme_setup' );
